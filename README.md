@@ -1,2 +1,2 @@
 # MetaGLMBench
-Benchmakring DNA Language Model on Metagenomics Tasks
+Benchmarking DNA Language Model on Metagenomics Tasks
