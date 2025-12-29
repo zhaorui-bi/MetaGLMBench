@@ -5,7 +5,7 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 ### CAMI 2
 
-[https://github.com/CAMI-challenge/second_challenge_evaluation](CAMI Second Challenge)
+[CAMI Second Challenge](https://github.com/CAMI-challenge/second_challenge_evaluation)
 
 ## Evaluation
 
