@@ -9,14 +9,18 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 ## Evaluation
 
-### AMBER
-
-'''
-AMBER 
-'''
 
 ### CheckM
-
+、、、
+checkm
+、、、
 ### CheckM2
+、、、
 
+、、、
 
+### AMBER
+
+、、、
+AMBER
+、、、
