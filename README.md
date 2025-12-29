@@ -11,16 +11,16 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 
 ### CheckM
-、、、
+ ```
 checkm
-、、、
+ ```
+
 ### CheckM2
-、、、
-
-、、、
-
+ ```
+checkm2
+ ```
 ### AMBER
 
-、、、
-AMBER
-、、、
+ ```
+amber
+ ```
