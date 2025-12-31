@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/15XQ-cBn8VlpW7jWRMqaNQiVrhNhmSXdo?usp=sha
 
 ## Preprocess
 
-> Real Samples provided by Google Drive link have been processed
+> Real Samples provided by Google Drive link should be processed to get *sorted.bam files
 
  ```
 find . -mindepth 2 -name "*.fasta" -exec cat {} + > sample_0.fna
