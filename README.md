@@ -10,7 +10,12 @@ https://github.com/CAMI-challenge/second_challenge_evaluation
 > First try to test MVP on marine dataset
 
  ```
+# unzip files
 tar -zxvf *.tar.gz
+
+# how to proporcess */bam files
+samtools merge - *.bam | samtools sort -o merged_sorted.bam -
+
 
  ```
 
@@ -19,6 +24,10 @@ tar -zxvf *.tar.gz
 Those can be assessed by the below Google Drive link
 
 https://drive.google.com/drive/folders/15XQ-cBn8VlpW7jWRMqaNQiVrhNhmSXdo?usp=sharing
+
+ ```
+rclone copy sample_0.fna gdrive:/ -P
+ ```
 
 ## Preprocess
 
