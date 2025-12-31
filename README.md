@@ -66,6 +66,10 @@ checkm2 predict --threads 50 --input ./genome  --output-directory ./genome_check
 # add +x fasta if data format is *.fasta
 checkm2 predict --threads 50 --input ./genome -x fasta --output-directory ./genome_checkm2_results
  ```
+
+> Binning bench on cami 2 marine sample0 for deep learning binning methods
+<img src="fig/marine_0_bench_binning.jpg" style="zoom: 75%;" />
+
 ### CheckM
 
 https://github.com/Ecogenomics/CheckM
