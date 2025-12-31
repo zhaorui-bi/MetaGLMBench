@@ -11,6 +11,8 @@ https://github.com/CAMI-challenge/second_challenge_evaluation
 
 Those can be assessed by the below Google Drive link
 
+https://drive.google.com/drive/folders/15XQ-cBn8VlpW7jWRMqaNQiVrhNhmSXdo?usp=sharing
+
 ## Preprocess
 
 > Real Samples provided by Google Drive link have been processed
