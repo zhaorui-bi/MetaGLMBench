@@ -9,6 +9,7 @@ https://github.com/CAMI-challenge/second_challenge_evaluation
 
 ### Real Samples
 
+Those can be assessed by the below Google Drive link
 
 ## Preprocess
 
