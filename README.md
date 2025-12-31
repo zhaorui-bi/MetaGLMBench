@@ -75,6 +75,7 @@ https://github.com/CAMI-challenge/AMBER
 > Only CAMI Golden Standard Sample can be evaluated by AMBER
 
  ```
+# *.fasta and *.fna are also accepted
 python path/to/MetaGLMBench/convert_fasta_bins_to_biobox_format.py *.fa -o my_bins.tsv
 
 amber.py -g gold_standard.tsv -o output_dir/ result1.tsv result2.tsv
