@@ -79,7 +79,6 @@ https://github.com/CAMI-challenge/AMBER
 python path/to/MetaGLMBench/convert_fasta_bins_to_biobox_format.py *.fa -o bins.tsv
 
 python amber.py -g gsa_mapping.binning \
--l "Method" \
 bins.tsv \
 -o output_dir/
  ```
