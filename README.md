@@ -7,6 +7,11 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 https://github.com/CAMI-challenge/second_challenge_evaluation
 
+ ```
+tar -zxvf *.tar.gz
+
+ ```
+
 ### Real Samples
 
 Those can be assessed by the below Google Drive link
