@@ -5,7 +5,16 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 ### CAMI 2
 
-https://github.com/CAMI-challenge/second_challenge_evaluation
+https://cami-challenge.org/
+
+> First to evluate on marine sample0 and sample1
+
+Marine: https://cami-challenge.org/datasets/Marine/
+
+Plant-associated: https://cami-challenge.org/datasets/Plant-associated/
+
+Strain-madness: https://cami-challenge.org/datasets/Strain-madness/
+
 
 > First try to test MVP on marine dataset
 
