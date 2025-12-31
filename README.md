@@ -36,6 +36,7 @@ samtools view -bS sample_0_unsorted.sam | samtools sort -@ 10 -o sample_0.sorted
 
 https://github.com/chklovski/CheckM2 
 
+>  machine learning models to estimate completeness and contamination
  ```
 # default is *.fna
 checkm2 predict --threads 50 --input ./genome  --output-directory ./genome_checkm2_results
@@ -47,6 +48,7 @@ checkm2 predict --threads 50 --input ./genome -x fasta --output-directory ./geno
 
 https://github.com/Ecogenomics/CheckM
 
+> estimates genome completeness and contamination based on the presence or absence of marker genes, i.e., genes that are typically ubiquitous and single copy
  ```
 checkm lineage_wf -t 8 -x fa /home/donovan/bins /home/donovan/checkm
 
