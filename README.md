@@ -7,6 +7,8 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 https://github.com/CAMI-challenge/second_challenge_evaluation
 
+> First try to test MVP on marine dataset
+
  ```
 tar -zxvf *.tar.gz
 
