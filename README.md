@@ -7,6 +7,9 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 https://github.com/CAMI-challenge/second_challenge_evaluation
 
+### Real Samples
+
+
 ## Preprocess
  ```
 find . -mindepth 2 -name "*.fasta" -exec cat {} + > sample_0.fna
