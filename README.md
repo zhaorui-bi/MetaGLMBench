@@ -5,7 +5,7 @@ Benchmarking DNA Language Model on Metagenomics Tasks
 
 ### CAMI 2
 
-[CAMI Second Challenge](https://github.com/CAMI-challenge/second_challenge_evaluation)
+https://github.com/CAMI-challenge/second_challenge_evaluation
 
 ## Preprocess
  ```
@@ -28,10 +28,30 @@ samtools view -bS sample_0_unsorted.sam | samtools sort -@ 10 -o sample_0.sorted
 ### CheckM2
 
 https://github.com/chklovski/CheckM2 
+
  ```
 # default is *.fna
 checkm2 predict --threads 50 --input ./genome  --output-directory ./genome_checkm2_results
 
 # add +x fasta if data format is *.fasta
 checkm2 predict --threads 50 --input ./genome -x fasta --output-directory ./genome_checkm2_results
+ ```
+### CheckM
+
+https://github.com/Ecogenomics/CheckM
+
+ ```
+checkm lineage_wf -t 8 -x fa /home/donovan/bins /home/donovan/checkm
+
+checkm lineage_wf --genes -t 8 -x faa <bin folder> <output folder>
+ ```
+
+### AMBER
+
+https://github.com/CAMI-challenge/AMBER
+
+> Only CAMI Golden Standard Sample can be evaluated by AMBER
+
+ ```
+
  ```
