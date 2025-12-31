@@ -34,6 +34,10 @@ samtools view -bS sample_0_unsorted.sam | samtools sort -@ 10 -o sample_0.sorted
 
 ## Evaluation
 
+Real Samples can be tested by CheckM2 and CheckM.
+
+CAMI 2 Samples can be tested by CheckM2, CheckM and AMBER.
+
 ### CheckM2
 
 https://github.com/chklovski/CheckM2 
