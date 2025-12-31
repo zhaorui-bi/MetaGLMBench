@@ -33,7 +33,7 @@ Those can be assessed by the below Google Drive link
 https://drive.google.com/drive/folders/15XQ-cBn8VlpW7jWRMqaNQiVrhNhmSXdo?usp=sharing
 
  ```
-rclone copy sample_0.fna gdrive:/ -P
+rclone copy path/to/file gdrive:/ -P
  ```
 
 ## Preprocess
