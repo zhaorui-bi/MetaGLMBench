@@ -26,6 +26,8 @@ samtools view -bS sample_0_unsorted.sam | samtools sort -@ 10 -o sample_0.sorted
 ## Evaluation
 
 ### CheckM2
+
+https://github.com/chklovski/CheckM2 
  ```
 # default is *.fna
 checkm2 predict --threads 50 --input ./genome  --output-directory ./genome_checkm2_results
