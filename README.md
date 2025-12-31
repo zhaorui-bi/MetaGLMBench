@@ -24,8 +24,6 @@ tar -zxvf *.tar.gz
 
 # how to proporcess */bam files
 samtools merge - *.bam | samtools sort -o merged_sorted.bam -
-
-
  ```
 
 ### Real Samples
