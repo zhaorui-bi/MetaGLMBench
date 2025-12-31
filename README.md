@@ -11,6 +11,9 @@ https://github.com/CAMI-challenge/second_challenge_evaluation
 
 
 ## Preprocess
+
+> Real Samples provided by Google Drive link have been processed
+
  ```
 find . -mindepth 2 -name "*.fasta" -exec cat {} + > sample_0.fna
 
