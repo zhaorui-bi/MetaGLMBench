@@ -1,11 +1,11 @@
 # MetaGLMBench
 Benchmarking DNA Language Model on Metagenomics Tasks
 
-## Datasets
+## 📊 Datasets
 
 ### CAMI 2
 
-https://cami-challenge.org/
+CAMI - Critical Assessment of Metagenome Interpretation: https://cami-challenge.org/
 
 > First to evluate on marine sample0 and sample1
 
@@ -36,7 +36,7 @@ https://drive.google.com/drive/folders/15XQ-cBn8VlpW7jWRMqaNQiVrhNhmSXdo?usp=sha
 rclone copy XXX gdrive:/MetaGLMBench/REAL -P
  ```
 
-## Preprocess
+## 🔧 Preprocess
 
 > Real Samples provided by Google Drive link should be processed to get *sorted.bam files
 
@@ -55,7 +55,7 @@ bowtie2 -x sample_0_index \
 samtools view -bS sample_0_unsorted.sam | samtools sort -@ 10 -o sample_0.sorted.bam
  ```
 
-## Evaluation
+## 📏 Evaluation
 
 Real Samples can be tested by CheckM2 and CheckM.
 
@@ -102,3 +102,15 @@ python amber.py -g binning_gs.tsv \
 bins.tsv \
 -o output_dir/
  ```
+
+## 📖 References
+
+1. Fernando Meyer, Gary Robertson, Zhi-Luo Deng, David Koslicki, Alexey Gurevich, Alice C McHardy, CAMI Benchmarking Portal: online evaluation and ranking of metagenomic software, Nucleic Acids Research, Volume 53, Issue W1, 7 July 2025, Pages W102–W109, https://doi.org/10.1093/nar/gkaf369
+2. Meyer, F., Fritz, A., Deng, ZL. et al. Critical Assessment of Metagenome Interpretation: the second round of challenges. Nat Methods 19, 429–440 (2022). DOI: 10.1038/s41592-022-01431-4
+3. Sczyrba, A., Hofmann, P., Belmann, P. et al. Critical Assessment of Metagenome Interpretation—a benchmark of metagenomics software. Nat Methods 14, 1063–1071 (2017). DOI: 10.1038/nmeth.4458
+4. Meyer, F., Lesker, TR., Koslicki, D. et al. Tutorial: assessing metagenomics software with the CAMI benchmarking toolkit. Nat Protoc 16, 1785–1801 (2021). DOI: 10.1038/s41596-020-00480-3
+5. Mikheenko, A., Saveliev, V. & Gurevich, A. MetaQUAST: evaluation of metagenome assemblies. Bioinformatics 32, 1088–1090 (2016). DOI: 10.1093/bioinformatics/btv697
+6. Meyer, F. et al. AMBER: assessment of metagenome BinnERs. Gigascience 7, giy069 (2018). DOI: 10.1093/gigascience/giy069
+7. Meyer, F. et al. Assessing taxonomic metagenome profilers with OPAL. Genome Biol. 20, 51 (2019). DOI: 10.1186/s13059-019-1646-y
+
+
