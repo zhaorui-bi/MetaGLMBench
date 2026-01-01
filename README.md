@@ -55,7 +55,9 @@ bowtie2 -x sample_0_index \
 samtools view -bS sample_0_unsorted.sam | samtools sort -@ 10 -o sample_0.sorted.bam
  ```
 
-## 📏 Evaluation
+## 📏 Binning Evaluation
+
+> Genome binning can be seen as a clustering problem, where sequences are grouped into bins without taxon labels.
 
 Real Samples can be tested by CheckM2 and CheckM.
 
