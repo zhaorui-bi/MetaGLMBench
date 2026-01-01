@@ -33,7 +33,7 @@ Those can be assessed by the below Google Drive link
 https://drive.google.com/drive/folders/15XQ-cBn8VlpW7jWRMqaNQiVrhNhmSXdo?usp=sharing
 
  ```
-rclone copy path/to/file gdrive:/ -P
+rclone copy XXX gdrive:/MetaGLMBench/REAL -P
  ```
 
 ## Preprocess
